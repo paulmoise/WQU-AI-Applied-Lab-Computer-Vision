@@ -1,0 +1,21 @@
+name: stable-diff-env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - matplotlib
+  - ipython
+  - ipywidgets
+  - jupyterlab
+  - tqdm
+  - pillow
+  - pip:
+      - diffusers
+      - transformers
+      - torchinfo
