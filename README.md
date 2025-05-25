@@ -12,33 +12,98 @@ The program includes **six hands-on projects** that explore real-world applicati
 - **Object Detection**: Finding and labeling multiple objects in an image, like a self-driving car spotting pedestrians and traffic lights.
 - **Generative AI**: Creating new images using AI, similar to deepfakes or AI-generated art.
 
-## Projects I Completed
+---
 
-Here are the projects I worked on:
+## 1. Wildlife Image Classification Project
 
-- [**Wildlife Image Classification**](./1.Widlife-Conservation-Ivory-Coast/): Classifying wildlife images to support conservation efforts.
-- [**Crop Disease Monitoring**](./2.Crop-Disease-Uganda/): Detecting crop diseases to help farmers protect their crops.
-- [**Traffic Flow Analysis**](./3.Traffic-monitoring-in-bangladesh/): Analyzing traffic patterns to reduce congestion in cities.
-- [**Face Detection & Recognition**](./4.Celebrity-Sightings-in-India/): Exploring how facial recognition works and its uses.
-- [**Medical Image Generation**](./5.Medical-Data-in-Spain/): Using AI to create medical images for research and diagnostics.
-- [**Meme Generator App**](./6.Social-Media-Marketing-at-WQU/): Building a fun app to create memes using AI.
+**Overview:**
+Analyze camera trap images to classify which animal is present, supporting wildlife conservation. This project involves building advanced neural network models for image classification.
 
-## Skills I Learned
+**Skills Learned:**
+- Reading and preprocessing image files
+- Using PyTorch for tensor manipulation and neural network modeling
+- Designing and training Convolutional Neural Networks (CNNs)
+- Making predictions and submitting results for a data science competition
 
-During the program, I developed these skills:
+[Dataset link](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/page/409/)  
+[Project Directory](./1.Widlife-Conservation-Ivory-Coast/)
 
-- **Neural Networks**: Understanding how these AI models work.
-- **PyTorch & Transformers**: Using popular tools to build and train AI models.
-- **Data Preparation**: Cleaning and organizing data for machine learning.
-- **Model Training**: Building and testing computer vision models.
-- **Model Deployment**: Making AI models ready for real-world use.
-- **Ethics in AI**: Understanding bias and ethical concerns in computer vision.
+---
 
-This program was an amazing learning experience, and I'm excited to apply these skills in future projects!
+## 2. Crop Disease Classification in Uganda
 
-NB:
+**Overview:**
+Work with crop disease images from Uganda to build a CNN that classifies images into five categories. The project emphasizes transfer learning and training optimization.
 
-Here’s a **short paragraph** you can add to your repository’s README file to specify the license, based on the text you shared:
+**Skills Learned:**
+- Dataset exploration and analysis
+- Building and training CNNs for multi-class classification
+- Transfer learning with pre-trained models
+- Overfitting mitigation and k-fold cross-validation
+- Using callbacks (learning rate scheduling, checkpointing, early stopping)
+
+[Project Directory](./2.Crop-Disease-Uganda/)
+
+---
+
+## 3. Real-Time Traffic Object Detection in Dhaka, Bangladesh
+
+**Overview:**
+Process traffic video feeds to detect and label objects (cars, people, etc.) in real time. Extend pre-trained YOLO models to detect custom objects for traffic analysis.
+
+**Skills Learned:**
+- Working with XML bounding box data
+- Extracting frames from video
+- Applying and training YOLO for object detection
+- Data augmentation for improved generalization
+
+[Project Directory](./3.Traffic-monitoring-in-bangladesh/)
+
+---
+
+## 4. Face Detection and Recognition with Mary Kom
+
+**Overview:**
+Use video of Mary Kom to perform face detection and recognition with MTCNN and Inception-ResNet models. Build a Flask app for user-friendly face recognition.
+
+**Skills Learned:**
+- Using MTCNN and Inception-ResNet V1 from `facenet_pytorch`
+- Extracting face bounding boxes and embeddings
+- Building a library of known faces
+- Deploying a Flask app for face recognition
+
+[Project Directory](./4.Celebrity-Sightings-in-India/)
+
+---
+
+## 5. Medical Image Generation with GANs
+
+**Overview:**
+Explore Generative Adversarial Networks (GANs) to create synthetic medical images. Build a custom GAN and a Streamlit web app for interactive image generation.
+
+**Skills Learned:**
+- Building and training GANs from scratch
+- Generating images with pre-trained GANs
+- Training with synthetic medical data
+- Building and deploying Streamlit web apps
+- Using Git and GitHub for collaboration
+
+[Project Directory](./5.Medical-Data-in-Spain/)
+
+---
+
+## 6. AI-Powered Meme Generation with Stable Diffusion
+
+**Overview:**
+Leverage Stable Diffusion for text-to-image meme generation. Fine-tune with LoRA and deploy an interactive Streamlit app for easy meme creation.
+
+**Skills Learned:**
+- Understanding and fine-tuning Stable Diffusion
+- Text-to-image generation
+- Personalizing models with LoRA
+- Building and deploying Streamlit apps
+
+[Project Directory](./6.Social-Media-Marketing-at-WQU/)
 
 ---
 
@@ -47,15 +112,11 @@ Here’s a **short paragraph** you can add to your repository’s README file to
 This repository contains files licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 You are free to:
-
 * Download and use these files for personal, educational, or non-commercial purposes.
 * Share the files publicly, as long as you provide proper credit to [WorldQuant University](https://www.wqu.edu/) and include a link to this license.
 
 However, you may **not**:
-
 * Modify or create derivative works based on these files.
 * Use the files for commercial purposes.
 
 Please respect these terms when using this material.
-
----
